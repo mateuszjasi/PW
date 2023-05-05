@@ -1,2 +1,2 @@
 # PW
-Zadania z przedmiotu Programowanie Współbieżne 
+Projekt z przedmiotu Programowanie Współbieżne 
