@@ -1,0 +1,226 @@
+V "GNAT Lib v2021"
+A -gnatA
+A -mtune=generic
+A -march=x86-64
+P ZX
+
+RN
+RV NO_CALENDAR
+RV NO_DELAY
+RV NO_EXCEPTION_HANDLERS
+RV NO_EXCEPTIONS
+RV NO_FIXED_POINT
+RV NO_FLOATING_POINT
+RV NO_IO
+RV NO_RELATIVE_DELAY
+RV NO_STANDARD_STORAGE_POOLS
+RV NO_TASKING
+RV NO_DEFAULT_INITIALIZATION
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+RV MAX_TASK_ENTRIES=2
+RV MAX_ENTRY_QUEUE_LENGTH=1+
+
+U zadania%b		zadania.adb		c118a2bf OO PK
+W ada%s			ada.ads			ada.ali
+W ada.calendar%s	a-calend.adb		a-calend.ali
+Z ada.calendar.delays%s	a-caldel.adb		a-caldel.ali
+W ada.float_text_io%s	a-flteio.ads		a-flteio.ali
+W ada.integer_text_io%s	a-inteio.ads		a-inteio.ali
+W ada.numerics%s	a-numeri.ads		a-numeri.ali
+W ada.numerics.float_random%s  a-nuflra.adb	a-nuflra.ali
+W ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W ada.text_io%s		a-textio.adb		a-textio.ali
+W bufor%s		bufor.adb		bufor.ali
+W semafor_bin%s		semafor_bin.adb		semafor_bin.ali
+Z system%s		system.ads		system.ali
+Z system.soft_links%s	s-soflin.adb		s-soflin.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.protected_objects%s  s-taprob.adb  s-taprob.ali
+Z system.tasking.protected_objects.operations%s  s-tpobop.adb  s-tpobop.ali
+Z system.tasking.rendezvous%s  s-tasren.adb	s-tasren.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+U zadania%s		zadania.ads		92de2598 EE NE OO PK
+Z ada.real_time%s	a-reatim.adb		a-reatim.ali
+Z ada.strings.text_buffers%s  a-sttebu.adb	a-sttebu.ali
+W bufor%s		bufor.adb		bufor.ali
+W semafor_bin%s		semafor_bin.adb		semafor_bin.ali
+Z system%s		system.ads		system.ali
+Z system.parameters%s	s-parame.adb		s-parame.ali
+Z system.task_info%s	s-tasinf.adb		s-tasinf.ali
+Z system.tasking%s	s-taskin.adb		s-taskin.ali
+Z system.tasking.stages%s  s-tassta.adb		s-tassta.ali
+
+D ada.ads		20210520051132 76789da1 ada%s
+D a-calend.ads		20210520051128 474d9720 ada.calendar%s
+D a-caldel.ads		20210520051128 9f20b83d ada.calendar.delays%s
+D a-except.ads		20210520051128 946f3014 ada.exceptions%s
+D a-finali.ads		20210520051128 bf4f806b ada.finalization%s
+D a-flteio.ads		20210520051128 e18a47a0 ada.float_text_io%s
+D a-inteio.ads		20210520051128 f64b89a4 ada.integer_text_io%s
+D a-ioexce.ads		20210520051128 e4a01f64 ada.io_exceptions%s
+D a-numeri.ads		20210520051130 84bea7a3 ada.numerics%s
+D a-nuflra.ads		20210520051130 4056ab7a ada.numerics.float_random%s
+D a-reatim.ads		20210520051128 0240fc73 ada.real_time%s
+D a-stream.ads		20210520051130 119b8fb3 ada.streams%s
+D a-string.ads		20210520051130 90ac6797 ada.strings%s
+D a-sttebu.ads		20210520051130 18209c64 ada.strings.text_buffers%s
+D a-stuten.ads		20210520051130 808c40ad ada.strings.utf_encoding%s
+D a-tags.ads		20210520051130 9eaa38c6 ada.tags%s
+D a-textio.ads		20210520051130 aef4d56d ada.text_io%s
+D a-tiflio.ads		20210520051130 fcca4daa ada.text_io.float_io%s
+D a-tiinio.ads		20210520051130 390edddb ada.text_io.integer_io%s
+D a-unccon.ads		20210520051130 0e9b276f ada.unchecked_conversion%s
+D bufor.ads		20211213102228 e4731919 bufor%s
+D interfac.ads		20210520051132 edec285f interfaces%s
+D i-c.ads		20210520051132 d9beded9 interfaces.c%s
+D i-cstrin.ads		20210520051132 341d0ddf interfaces.c.strings%s
+D i-cstrea.ads		20210520051132 e53d8b8e interfaces.c_streams%s
+D semafor_bin.ads	20211213095250 18a0ec37 semafor_bin%s
+D system.ads		20210520051136 2ffa5114 system%s
+D s-atacco.ads		20210520051132 4c36d12f system.address_to_access_conversions%s
+D s-crtl.ads		20210520051132 0ebbdb71 system.crtl%s
+D s-exctab.ads		20210520051132 54135002 system.exception_table%s
+D s-ficobl.ads		20210520051132 078245e4 system.file_control_block%s
+D s-finmas.ads		20210520051132 1ab4dba8 system.finalization_masters%s
+D s-finroo.ads		20210520051132 4ff27390 system.finalization_root%s
+D s-multip.ads		20210520051134 38ac9f73 system.multiprocessors%s
+D s-osinte.ads		20210520051128 97504df8 system.os_interface%s
+D s-parame.ads		20210520051134 4752c4cb system.parameters%s
+D s-pooglo.ads		20210520051134 ede33ef8 system.pool_global%s
+D s-putima.ads		20210520051134 4e095881 system.put_images%s
+D s-rannum.ads		20210520051134 c3978523 system.random_numbers%s
+D s-secsta.ads		20210520051134 9b3ab94b system.secondary_stack%s
+D s-soflin.ads		20210520051134 a7318a92 system.soft_links%s
+D s-stache.ads		20210520051134 a37c21ec system.stack_checking%s
+D s-stausa.ads		20210520051134 017a0a05 system.stack_usage%s
+D s-stalib.ads		20210520051134 472fbca8 system.standard_library%s
+D s-stoele.ads		20210520051134 2dc34a04 system.storage_elements%s
+D s-stoele.adb		20210520051134 ed88f8fb system.storage_elements%b
+D s-stopoo.ads		20210520051134 e9fa2dd8 system.storage_pools%s
+D s-tasinf.ads		20210520051128 601f6b72 system.task_info%s
+D s-taspri.ads		20210520051128 a1350802 system.task_primitives%s
+D s-taprop.ads		20210520051128 6eefbe12 system.task_primitives.operations%s
+D s-taskin.ads		20210520051128 88fba9ad system.tasking%s
+D s-taprob.ads		20210520051128 acd6094d system.tasking.protected_objects%s
+D s-tpoben.ads		20210520051128 60ad3dae system.tasking.protected_objects.entries%s
+D s-tpobop.ads		20210520051128 5f548bb3 system.tasking.protected_objects.operations%s
+D s-tasren.ads		20210520051128 a67a9949 system.tasking.rendezvous%s
+D s-tassta.ads		20210520051128 cca55c94 system.tasking.stages%s
+D s-traent.ads		20210520051134 26a8d361 system.traceback_entries%s
+D s-unstyp.ads		20210520051134 2b077493 system.unsigned_types%s
+D s-wchcon.ads		20210520051136 1b7d22d2 system.wch_con%s
+D s-win32.ads		20210520051136 15ac53fb system.win32%s
+D unchconv.ads		20210520051136 ca2f9e18 unchecked_conversion%s
+D zadania.ads		20211213095852 6e0dd0b6 zadania%s
+D zadania.adb		20211219173800 efa85c67 zadania%b
+G a e
+G c Z s b [producent zadania 5 14 none]
+G c Z s b [start zadania__producent 6 13 none]
+G c Z s b [stop zadania__producent 7 13 none]
+G c Z s b [konsument zadania 10 14 none]
+G c Z s b [start zadania__konsument 11 13 none]
+G c Z s b [stop zadania__konsument 12 13 none]
+G c Z s s [producentVIP zadania 5 4 none]
+G c Z s s [konsumentVIP zadania 10 4 none]
+G c Z b b [produkuj zadania 11 11 none]
+G c Z b b [konsumuj zadania 24 11 none]
+G r o none [start zadania__producent 6 13 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [start zadania__producent 6 13 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [start zadania__producent 6 13 none] [wstaw bufor__bufor_obj 12 13 none]
+G r o none [stop zadania__producent 7 13 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [stop zadania__producent 7 13 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [stop zadania__producent 7 13 none] [wstaw bufor__bufor_obj 12 13 none]
+G r o none [producent zadania 5 14 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [producent zadania 5 14 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [producent zadania 5 14 none] [wstaw bufor__bufor_obj 12 13 none]
+G r o none [start zadania__konsument 11 13 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [start zadania__konsument 11 13 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [start zadania__konsument 11 13 none] [pobierz bufor__bufor_obj 13 13 none]
+G r o none [stop zadania__konsument 12 13 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [stop zadania__konsument 12 13 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [stop zadania__konsument 12 13 none] [pobierz bufor__bufor_obj 13 13 none]
+G r o none [konsument zadania 10 14 none] [pb semafor_bin__semafor_bin 3 13 none]
+G r p none [konsument zadania 10 14 none] [vb semafor_bin__semafor_bin 4 17 none]
+G r r none [konsument zadania 10 14 none] [pobierz bufor__bufor_obj 13 13 none]
+X 1 ada.ads
+16K9*Ada 20e8 63|1r6 1r33 1r47 1r61 2r6 2r27 3r5 3r32 3r46 3r60 4r5 4r26
+X 2 a-calend.ads
+36K13*Calendar 413e17 63|1w37 3r36
+X 6 a-flteio.ads
+20K13*Float_Text_IO[18|46] 63|2w31 4r30
+X 7 a-inteio.ads
+18K13*Integer_Text_IO[19|46] 63|2w10 4r9
+X 9 a-numeri.ads
+16K13*Numerics 35e17 63|1r10 3r9
+X 10 a-nuflra.ads
+41K22*Float_Random 74e30 63|1w19 3r18
+47R9*Generator<39|65R9> 63|8r9
+49F12*Uniformly_Distributed{float}
+51V13*Random{49F12}<39|73p13> 63|20s12
+54U14*Reset<39|109p14> 63|18s10 31s10
+X 11 a-reatim.ads
+39K13*Real_Time 185e18 63|1w51 3r50
+49O9*Time<duration>
+54O9*Time_Span<duration> 63|13r11 26r11
+61V13*Clock{49O9} 63|17s17 30s17
+130I9*Seconds_Count<long_long_integer> 63|12r11 25r11
+139U14*Split 63|17s10 30s10
+X 17 a-textio.ads
+58K13*Text_IO 725e16 63|1w65 3r64
+262U14*New_Line 63|44s10 53s10 64s10 72s10 85s10 94s10 105s10 113s10
+463U14*Put 63|41s10 43s10 49s10 51s10 58s10 60s10 62s10 69s10 71s10 82s10
+. 84s10 90s10 92s10 99s10 101s10 103s10 110s10 112s10
+X 18 a-tiflio.ads
+82U14*Put 63|63s10[6|20] 104s10[6|20]
+X 19 a-tiinio.ads
+80U14*Put 63|42s10[7|18] 50s10[7|18] 52s10[7|18] 59s10[7|18] 61s10[7|18]
+. 70s10[7|18] 83s10[7|18] 91s10[7|18] 93s10[7|18] 100s10[7|18] 102s10[7|18]
+. 111s10[7|18]
+X 21 bufor.ads
+4K9*Bufor 22e10 62|1w6 2r5 63|2w46 4r45
+6F12*T{float} 63|11r27 24r26
+12Y13 wstaw 63|56s22
+13Y13 pobierz 63|96s22
+18P9*Bufor_Obj_Acc(11T14)
+20p4*buf_acc{18P9} 63|56r10 96r10
+X 26 semafor_bin.ads
+1K9*Semafor_Bin 10e16 62|1w13 2r12 63|2w53 4r52
+3Y13 PB 63|40s26 48s26 57s26 68s26 81s26 89s26 98s26 109s26
+4U17 VB 63|45s26 54s26 65s26 73s26 86s26 95s26 106s26 114s26
+8P9*Semafor_Bin_Acc(2W19) 62|15r18
+X 43 s-stausa.ads
+208U14*Initialize 209i<c,__gnat_stack_usage_initialize>22
+273U14*Output_Results 277i<c,__gnat_stack_usage_output_results>22
+X 62 zadania.ads
+4K9*Zadania 19l5 19e12 63|6b14 120l5 120t12
+5T14*Producent 5d24 8l8 8e17 63|36b11 75t7
+5i24 nr{integer} 63|42r14 50r14 59r14 70r14
+6Y13 Start 63|39b14 46l11 46t16
+7Y13 Stop 63|67b14 74l11 74t15
+10T14*Konsument 10d24 13l8 13e17 63|77b11 116t7
+10i24 nr{integer} 63|83r14 91r14 100r14 111r14
+11Y13 Start 63|80b14 87l11 87t16
+12Y13 Stop 63|108b14 115l11 115t15
+15p4*sem_bin_acc{26|8P9} 63|40r10 45r10 48r10 54r10 57r10 65r10 68r10 73r10
+. 81r10 86r10 89r10 95r10 98r10 106r10 109r10 114r10
+17i4*licznik_prod{integer} 63|47r33
+18i4*licznik_kons{integer} 63|88r33
+X 63 zadania.adb
+8r4 gen{10|47R9} 18r16 20r19 31r16
+9b4 first{boolean} 15r11 16m10 28r11 29m10
+11U11 Produkuj 11b11 11<20 22t7 55s10
+11f20 f{21|6F12} 20m7 21r28
+12i7 sc{11|130I9} 17m24 18r29
+13o7 ts{11|54O9} 17m28
+24U11 Konsumuj 24b11 24>20 34t7 97s10
+24f20 f{21|6F12} 33r29
+25i7 sc{11|130I9} 30m24 31r29
+26o7 ts{11|54O9} 30m28
+37f7 f{float} 55m19 56r28 63r14
+47i11 i{integer} 52r14 61r14
+78f7 f{float} 96m30 97r19 104r14
+88i11 i{integer} 93r14 102r14
+

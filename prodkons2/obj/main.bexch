@@ -1,0 +1,25 @@
+[GENERATED OBJECT FILE]
+b__main.o
+[PROJECT FILES]
+E:\lab9_10\prodkons2\prodkons2.gpr
+20211213100452 cd90146d73ea928ac7db4f163b47675b
+[BOUND OBJECT FILES]
+E:\lab9_10\prodkons2\obj\semafor_bin.o
+E:\lab9_10\prodkons2\obj\zadania.o
+E:\lab9_10\prodkons2\obj\bufor.o
+E:\lab9_10\prodkons2\obj\main.o
+[GENERATED SOURCE FILES]
+b__main.ads
+b__main.adb
+b__main.ali
+[RESULTING OPTIONS]
+-LE:\lab9_10\prodkons2\obj\
+-LE:\lab9_10\prodkons2\obj\
+-LE:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/
+-static
+-static-libgcc
+E:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnarl.a
+E:/gnat/2021/lib/gcc/x86_64-w64-mingw32/10.3.1/adalib/libgnat.a
+-Xlinker
+--stack=0x200000,0x1000
+-mthreads

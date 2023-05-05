@@ -1,0 +1,64 @@
+<?xml version="1.0"?>
+<Locations >
+  <Project >
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\bufor.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\bufor.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\semafor_bin.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\semafor_bin.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\zadania.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1" >
+      <vfs_project>E:\lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file>E:\lab9_10\prodkons2\src\zadania.adb</vfs_file>
+    </file_marker>
+  </Project>
+  <Project >
+    <vfs_file >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_file>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\main.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\semafor_bin.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\semafor_bin.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\zadania.ads</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\zadania.adb</vfs_file>
+    </file_marker>
+    <file_marker column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\bufor.ads</vfs_file>
+    </file_marker>
+    <file_marker current="true" column=" 1" line=" 1">
+      <vfs_project >E:\pw_lab9_10\prodkons2\prodkons2.gpr</vfs_project>
+      <vfs_file >E:\pw_lab9_10\prodkons2\src\bufor.adb</vfs_file>
+    </file_marker>
+  </Project>
+</Locations>
